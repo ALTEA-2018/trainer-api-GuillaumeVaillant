@@ -63,15 +63,6 @@
             <artifactId>h2</artifactId>
         </dependency>
 
-        <!-- Hibernate -->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-validator</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>org.postgresql</groupId>
