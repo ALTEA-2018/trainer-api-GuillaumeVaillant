@@ -9,11 +9,23 @@ public class Trainer {
     @Id // clée primaire
     private String name;
 
+    @Column
+    private String password;
+
     @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     private List<Pokemon> team;
 
     public Trainer() {
     }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
 
     public Trainer(String name) {
         this.name = name;

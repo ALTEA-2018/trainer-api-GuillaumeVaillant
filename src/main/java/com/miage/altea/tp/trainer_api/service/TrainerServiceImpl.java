@@ -38,20 +38,5 @@ public class TrainerServiceImpl implements TrainerService {
 
         return this.trainerRepository.save(trainer);
     }
-/*
-    @Override
-    public Trainer updateTrainer(Trainer trainer) {
-        // TODO
 
-        return this.trainerRepository.save(trainer);
-    }
-
-    @Override
-    public boolean deleteTrainer(String name) {
-        // TODO
-
-        this.trainerRepository.deleteById(name);
-
-        return trainerRepository.findById(name).isPresent();
-    } */
 }

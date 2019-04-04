@@ -8,11 +8,13 @@ import java.util.List;
 import java.util.Optional;
 
 
-//@Repository
+@Repository
 public interface TrainerRepository extends CrudRepository<Trainer,String> {
     @Override
     List<Trainer> findAll();
 
     @Override
     Optional<Trainer> findById(String name);
+
+    Trainer save(Trainer entity);
 }
